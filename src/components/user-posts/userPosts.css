@@ -1,0 +1,29 @@
+.posts-wrapper {
+  height: 100vh;
+}
+.posts {
+  max-height: 80vh;
+  overflow: auto;
+  overflow-x: hidden;
+}
+.post-block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: 0.1rem solid gainsboro;
+  margin: 0 auto;
+}
+.post-block:nth-last-child(n + 2) {
+  border-bottom: none;
+}
+.post {
+  width: 70%;
+  padding: 2rem;
+  background-color: white;
+  color: black;
+}
+.back-btn {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
