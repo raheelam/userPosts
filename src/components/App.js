@@ -16,7 +16,7 @@ function App() {
     return <LoadingPage />;
   }
   return (
-    <div>
+    <div style={{ overflow: "auto" }}>
       <h1>Users List</h1>
       <div style={{ overflow: "auto" }}>
         <table id="user-table">

@@ -9,7 +9,7 @@ const LoadingPage = () => {
   };
   return (
     <div style={container}>
-      <div style={{ width: "50%", textAlign: "center" }}>
+      <div style={{ textAlign: "center" }}>
         <h1>Loading...</h1>
       </div>
     </div>

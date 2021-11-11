@@ -6,7 +6,6 @@ import "./userPosts.css";
 
 function UserPosts() {
   const { id, username } = useParams();
-  console.log(id);
   const [userPosts, setUserPosts] = useState(null);
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/posts")
