@@ -1,8 +1,7 @@
-table,
-th,
-td {
-  border: 1px solid black;
+tr {
+  border-bottom: 1px solid gainsboro;
 }
+
 th,
 td {
   padding: 0.5rem;
@@ -12,12 +11,17 @@ th {
   text-transform: capitalize;
 }
 tbody tr:hover {
-  background-color: rgb(168, 168, 143);
+  background-color: black;
+  color: rgb(168, 168, 143);
+  /* rgb(168, 168, 143); */
   cursor: pointer;
 }
 table {
   background-color: white;
   color: black;
+  border-collapse: collapse;
+
+  border-radius: 8px;
   margin: 0 2rem;
 }
 

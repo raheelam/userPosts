@@ -2,11 +2,18 @@
   height: 100vh;
 }
 .posts {
+  padding: 1rem 2rem;
+  /* box-shadow: 5px 5px 28px 4px rgba(0, 0, 0, 0.33); */
+  border-radius: 5px;
+  width: 70%;
+  max-width: 70%;
+  margin: 2rem auto;
   max-height: 80vh;
   overflow: auto;
   overflow-x: hidden;
 }
 .post-block {
+  position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -17,10 +24,15 @@
   border-bottom: none;
 }
 .post {
-  width: 70%;
+  width: 100%;
   padding: 2rem;
   background-color: white;
   color: black;
+}
+.post:hover {
+  border-radius: 5px;
+  background-color: black;
+  color: rgb(168, 168, 143);
 }
 .back-btn {
   position: absolute;
